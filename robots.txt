@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fixorapk.netlify.app/sitemap.xml
+Sitemap: https://royalfixora.netlify.app/sitemap.xml
