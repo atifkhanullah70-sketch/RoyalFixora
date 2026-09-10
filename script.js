@@ -1,5 +1,5 @@
 /* =========================================
-   FIXORA JAVASCRIPT
+   ROYAL FIXORA JAVASCRIPT
 ========================================= */
 
 
@@ -482,7 +482,7 @@ function handleBooking(event) {
 
     const message = `
 
-Hello Fixora!
+Hello Royal Fixora!
 
 I would like to book a home service.
 
