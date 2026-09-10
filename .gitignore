@@ -1,0 +1,47 @@
+# =========================
+# Fixora Git Ignore
+# =========================
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Other IDEs
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Windows files
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+*.old

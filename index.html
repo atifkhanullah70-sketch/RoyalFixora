@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+    <title>Fixora — Trusted Home Services in Pakistan | Plumbers, Electricians & More</title>
+
+    <meta name="description"
+          content="Book trusted, verified home service professionals in Islamabad, Rawalpindi, Lahore and across Pakistan. Plumbing, electrical, cleaning, painting and more — right at your doorstep.">
+
+    <meta name="keywords"
+          content="home services Pakistan, plumber Islamabad, electrician Lahore, home cleaning Rawalpindi, handyman, Fixora">
+
+    <meta name="author" content="Fixora">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="language" content="English">
+    <meta name="geo.region" content="PK">
+    <meta name="geo.placename" content="Pakistan">
+    <meta name="theme-color" content="#d9541f">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://fixorapk.netlify.app/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Fixora">
+    <meta property="og:title" content="Fixora — Trusted Home Services in Pakistan">
+    <meta property="og:description"
+          content="Book verified professionals for plumbing, electrical, cleaning, painting and more — right at your doorstep.">
+    <meta property="og:url" content="https://fixorapk.netlify.app/">
+    <meta property="og:locale" content="en_PK">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fixora — Trusted Home Services in Pakistan">
+    <meta name="twitter:description"
+          content="Book verified professionals for plumbing, electrical, cleaning, painting and more.">
+
+    <!-- Favicon -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Structured Data: LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Fixora",
+      "description": "Trusted home services platform connecting customers with verified plumbers, electricians, cleaners and other home professionals across Pakistan.",
+      "url": "https://fixorapk.netlify.app/",
+      "logo": "https://fixorapk.netlify.app/assets/logo/logo.png",
+      "image": "https://fixorapk.netlify.app/assets/images/og-cover.jpg",
+      "telephone": "+92-348-196-9273",
+      "email": "hello@fixora.com",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PK",
+        "addressLocality": "Islamabad"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Islamabad" },
+        { "@type": "City", "name": "Rawalpindi" },
+        { "@type": "City", "name": "Lahore" },
+        { "@type": "City", "name": "Karachi" }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/fixora",
+        "https://www.instagram.com/fixora"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "2480"
+      }
+    }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I book a home service with Fixora?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choose your service, fill in your details, and we'll connect you with a verified professional via WhatsApp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which cities does Fixora serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Currently serving Islamabad, Rawalpindi and Lahore. We're expanding to Karachi and Faisalabad soon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the professionals on Fixora verified?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every professional is screened for experience, background, and customer reviews before being listed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a plumber cost in Pakistan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Typical rates range from PKR 500-1500 per visit depending on the job."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I reschedule or cancel a booking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Message us on WhatsApp at least 2 hours before your scheduled slot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What payment methods are accepted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cash on completion is standard. Many professionals also accept bank transfer, JazzCash, and Easypaisa."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">F</span>
+            <span>Fixora</span>
+        </a>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#professionals">Professionals</a>
+            <a href="#about">About</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+
+            <button class="nav-book-btn" onclick="openBookingModal()">
+                Book a Service
+            </button>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">☰</button>
+
+    </div>
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+    <div class="container hero-content">
+        <div class="hero-text">
+
+            <div class="hero-badge">
+                <span data-icon="check" aria-hidden="true"></span>
+                Trusted Local Professionals
+            </div>
+
+            <h1>
+                Reliable Home Services,
+                <span>Whenever You Need Them.</span>
+            </h1>
+
+            <p>
+                Book trusted professionals for plumbing, electrical,
+                cleaning, painting and much more — right at your
+                doorstep.
+            </p>
+
+            <div class="search-box">
+
+                <div class="search-field">
+                    <span data-icon="search" aria-hidden="true"></span>
+                    <input type="text" id="heroServiceSearch" placeholder="What service do you need?" aria-label="Search for a service">
+                </div>
+
+                <div class="search-field">
+                    <span data-icon="map-pin" aria-hidden="true"></span>
+                    <input type="text" id="heroLocationSearch" placeholder="City or area" aria-label="Enter your city or area">
+                </div>
+
+                <button onclick="searchServices()">Find a Service</button>
+
+            </div>
+
+            <div class="popular-searches">
+                <span>Popular:</span>
+                <button onclick="quickSearch('Plumbing')">Plumbing</button>
+                <button onclick="quickSearch('Electrical')">Electrical</button>
+                <button onclick="quickSearch('Home Cleaning')">Cleaning</button>
+                <button onclick="quickSearch('Painting')">Painting</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="section services-section" id="services">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">OUR SERVICES</span>
+            <h2>Everything Your Home Needs</h2>
+            <p>Find skilled professionals for everyday home maintenance, repairs and improvement.</p>
+        </div>
+
+        <div class="service-search">
+            <input type="text" id="serviceSearch" placeholder="Search services..." oninput="filterServices()" aria-label="Search services">
+            <span data-icon="search" aria-hidden="true"></span>
+        </div>
+
+        <div class="services-grid" id="servicesGrid"></div>
+
+        <div id="noServices" class="no-results">
+            <h3>No service found</h3>
+            <p>We couldn't find that service. Try another keyword.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section class="section process-section" id="how-it-works">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">HOW IT WORKS</span>
+            <h2>Get Help in Four Simple Steps</h2>
+            <p>Booking a professional should be simple. Fixora keeps the process easy.</p>
+        </div>
+
+        <div class="process-grid">
+
+            <div class="process-card">
+                <div class="process-number">01</div>
+                <div class="process-icon" data-icon="search" aria-hidden="true"></div>
+                <h3>Choose a Service</h3>
+                <p>Select the home service you need.</p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">02</div>
+                <div class="process-icon" data-icon="clipboard" aria-hidden="true"></div>
+                <h3>Tell Us the Details</h3>
+                <p>Provide your location and basic job details.</p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">03</div>
+                <div class="process-icon" data-icon="user-check" aria-hidden="true"></div>
+                <h3>Connect With a Pro</h3>
+                <p>Get connected with a suitable professional.</p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">04</div>
+                <div class="process-icon" data-icon="home" aria-hidden="true"></div>
+                <h3>Get It Done</h3>
+                <p>Your professional arrives and completes the job.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= WHY FIXORA ================= -->
+
+<section class="section why-section">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">WHY FIXORA</span>
+            <h2>Home Services Made Easier</h2>
+            <p>We focus on making it easier for customers to find the right professional for their needs.</p>
+        </div>
+
+        <div class="features-grid">
+
+            <div class="feature-card">
+                <div class="feature-icon" data-icon="shield" aria-hidden="true"></div>
+                <h3>Trusted Professionals</h3>
+                <p>Find professionals with experience in their service categories.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon" data-icon="zap" aria-hidden="true"></div>
+                <h3>Quick Booking</h3>
+                <p>Submit your service request without complicated booking steps.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon" data-icon="map-pin" aria-hidden="true"></div>
+                <h3>Local Services</h3>
+                <p>Find services suitable for your city and area.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon" data-icon="message" aria-hidden="true"></div>
+                <h3>Easy Communication</h3>
+                <p>Contact your service professional through convenient communication channels.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= PROFESSIONALS ================= -->
+
+<section class="section professionals-section" id="professionals">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">OUR PROFESSIONALS</span>
+            <h2>Meet Some of Our Professionals</h2>
+            <p>Connect with professionals offering different home and property services.</p>
+        </div>
+
+        <div class="professionals-grid">
+
+            <div class="professional-card">
+                <div class="professional-avatar" data-icon="user" aria-hidden="true"></div>
+                <h3>Ahmed Khan</h3>
+                <span class="professional-role">Master Plumber</span>
+                <div class="rating">4.9 ★</div>
+                <p>250+ Jobs</p>
+                <span class="professional-location">
+                    <span class="inline-icon" data-icon="map-pin" aria-hidden="true"></span> Islamabad
+                </span>
+                <button class="outline-btn" onclick="bookProfessional('Ahmed Khan', 'Plumbing')">Book Now</button>
+            </div>
+
+            <div class="professional-card">
+                <div class="professional-avatar" data-icon="user" aria-hidden="true"></div>
+                <h3>Usman Ali</h3>
+                <span class="professional-role">Electrician</span>
+                <div class="rating">4.8 ★</div>
+                <p>180+ Jobs</p>
+                <span class="professional-location">
+                    <span class="inline-icon" data-icon="map-pin" aria-hidden="true"></span> Rawalpindi
+                </span>
+                <button class="outline-btn" onclick="bookProfessional('Usman Ali', 'Electrical')">Book Now</button>
+            </div>
+
+            <div class="professional-card">
+                <div class="professional-avatar" data-icon="user" aria-hidden="true"></div>
+                <h3>Bilal Ahmed</h3>
+                <span class="professional-role">Professional Painter</span>
+                <div class="rating">4.9 ★</div>
+                <p>320+ Jobs</p>
+                <span class="professional-location">
+                    <span class="inline-icon" data-icon="map-pin" aria-hidden="true"></span> Lahore
+                </span>
+                <button class="outline-btn" onclick="bookProfessional('Bilal Ahmed', 'Painting')">Book Now</button>
+            </div>
+
+            <div class="professional-card">
+                <div class="professional-avatar" data-icon="user" aria-hidden="true"></div>
+                <h3>Hamza Malik</h3>
+                <span class="professional-role">Home Repair Specialist</span>
+                <div class="rating">4.7 ★</div>
+                <p>150+ Jobs</p>
+                <span class="professional-location">
+                    <span class="inline-icon" data-icon="map-pin" aria-hidden="true"></span> Islamabad
+                </span>
+                <button class="outline-btn" onclick="bookProfessional('Hamza Malik', 'General Handyman')">Book Now</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats-section">
+    <div class="container stats-grid">
+
+        <div class="stat">
+            <strong data-target="10000">0</strong>
+            <span>Services Completed</span>
+        </div>
+
+        <div class="stat">
+            <strong data-target="2500">0</strong>
+            <span>Verified Professionals</span>
+        </div>
+
+        <div class="stat">
+            <strong data-target="50">0</strong>
+            <span>Service Categories</span>
+        </div>
+
+        <div class="stat">
+            <strong data-target="4.8">0</strong>
+            <span>Average Rating</span>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section about-section" id="about">
+    <div class="container about-grid">
+
+        <div class="about-content">
+            <span class="section-label">ABOUT FIXORA</span>
+            <h2>Your Local Home Service Partner</h2>
+            <p>Fixora is a home-services platform designed to make finding everyday household professionals simpler.</p>
+            <p>From plumbing and electrical work to cleaning, maintenance and repairs, Fixora helps customers discover suitable service professionals.</p>
+
+            <div class="about-points">
+                <div>✓ Simple service discovery</div>
+                <div>✓ Convenient booking requests</div>
+                <div>✓ Multiple service categories</div>
+                <div>✓ Direct communication options</div>
+            </div>
+        </div>
+
+        <div class="about-visual">
+            <div class="about-box">
+                <div class="about-big-icon" data-icon="home" aria-hidden="true"></div>
+                <h3>Fixora</h3>
+                <p>Trusted Services. Right at Your Door.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta-section">
+    <div class="container cta-content">
+        <h2>Need a Service at Home?</h2>
+        <p>Tell us what you need and start your service request.</p>
+        <button class="primary-btn" onclick="openBookingModal()">Book a Service</button>
+    </div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section contact-section" id="contact">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">CONTACT US</span>
+            <h2>Have a Question?</h2>
+            <p>Send us a message and we'll get back to you.</p>
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+                    <span data-icon="whatsapp" aria-hidden="true"></span>
+                    <div>
+                        <h3>WhatsApp</h3>
+                        <p>+92 3481 969273</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span data-icon="mail" aria-hidden="true"></span>
+                    <div>
+                        <h3>Email</h3>
+                        <p>hello@fixora.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span data-icon="map-pin" aria-hidden="true"></span>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Pakistan</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <form class="contact-form" id="contactForm">
+
+                <div class="form-row">
+                    <input type="text" id="contactName" placeholder="Your Name" required aria-label="Your name">
+                    <input type="email" id="contactEmail" placeholder="Your Email" required aria-label="Your email">
+                </div>
+
+                <input type="text" id="contactSubject" placeholder="Subject" required aria-label="Subject">
+
+                <textarea id="contactMessage" placeholder="Your message..." rows="6" required aria-label="Your message"></textarea>
+
+                <button type="submit" class="primary-btn">Send Message</button>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= FAQ ================= -->
+
+<section class="section faq-section" id="faq">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">FREQUENTLY ASKED</span>
+            <h2>Common Questions</h2>
+            <p>Everything you need to know about booking a home service with Fixora.</p>
+        </div>
+
+        <div class="faq-list">
+
+            <details class="faq-item" open>
+                <summary>How do I book a home service with Fixora?</summary>
+                <p>Choose your service, fill in your details, and we'll connect you with a verified professional via WhatsApp. The whole process takes under two minutes.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Which cities does Fixora serve?</summary>
+                <p>Currently serving Islamabad, Rawalpindi and Lahore. We're expanding to Karachi and Faisalabad soon.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Are the professionals on Fixora verified?</summary>
+                <p>Yes. Every professional is screened for experience, background, and customer reviews before being listed.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How much does a plumber cost in Pakistan?</summary>
+                <p>Typical rates range from PKR 500–1500 per visit depending on the job. Fixora connects you with professionals who provide upfront quotes.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Can I reschedule or cancel a booking?</summary>
+                <p>Yes. Message us on WhatsApp at least 2 hours before your scheduled slot and we'll arrange it.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>What payment methods are accepted?</summary>
+                <p>Cash on completion is standard. Many professionals also accept bank transfer, JazzCash, and Easypaisa.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Is Fixora available for commercial properties?</summary>
+                <p>Yes — offices, shops, and rental properties are all supported. Contact us on WhatsApp for bulk or recurring bookings.</p>
+            </details>
+
+        </div>
+    </div>
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+            <a href="#home" class="logo footer-logo">
+                <span class="logo-icon">F</span>
+                <span>Fixora</span>
+            </a>
+            <p>Trusted Services. Right at Your Door.</p>
+            <p class="footer-small">A modern platform concept for discovering home-service professionals.</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Company</h3>
+            <a href="#about">About</a>
+            <a href="#professionals">Professionals</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+            <a href="#" onclick="openProviderModal(); return false;">Join as a Professional</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Services</h3>
+            <a href="#services">Plumbing</a>
+            <a href="#services">Electrical</a>
+            <a href="#services">Home Cleaning</a>
+            <a href="#services">Painting</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Connect</h3>
+            <a href="https://wa.me/923481969273" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© <span id="currentYear">2026</span> Fixora. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<!-- ================= WHATSAPP FLOAT BUTTON ================= -->
+
+<a href="https://wa.me/923481969273?text=Hello%20Fixora%2C%20I%20need%20help%20with%20a%20home%20service."
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener"
+   aria-label="Contact Fixora on WhatsApp">
+    <span data-icon="whatsapp" aria-hidden="true"></span>
+</a>
+
+
+<!-- ================= BOOKING MODAL ================= -->
+
+<div class="modal" id="bookingModal">
+    <div class="modal-content">
+
+        <button class="modal-close" onclick="closeBookingModal()" aria-label="Close">×</button>
+
+        <div class="modal-header">
+            <span class="modal-icon" data-icon="wrench" aria-hidden="true"></span>
+            <h2>Book a Service</h2>
+            <p>Tell us what you need and we'll help you get started.</p>
+        </div>
+
+        <form id="bookingForm">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="bookingService">Service</label>
+                    <select id="bookingService" required>
+                        <option value="">Select a service</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bookingName">Your Name</label>
+                    <input type="text" id="bookingName" placeholder="Full name" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="bookingPhone">Phone</label>
+                    <input type="tel" id="bookingPhone" placeholder="+92..." required>
+                </div>
+                <div class="form-group">
+                    <label for="bookingEmail">Email</label>
+                    <input type="email" id="bookingEmail" placeholder="you@example.com" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="bookingLocation">City / Area</label>
+                    <input type="text" id="bookingLocation" placeholder="Islamabad, Rawalpindi..." required>
+                </div>
+                <div class="form-group">
+                    <label for="bookingAddress">Address</label>
+                    <input type="text" id="bookingAddress" placeholder="Complete address" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="bookingDate">Date</label>
+                    <input type="date" id="bookingDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="bookingTime">Preferred Time</label>
+                    <select id="bookingTime" required>
+                        <option value="">Select time</option>
+                        <option>9:00 AM - 11:00 AM</option>
+                        <option>11:00 AM - 1:00 PM</option>
+                        <option>1:00 PM - 3:00 PM</option>
+                        <option>3:00 PM - 5:00 PM</option>
+                        <option>5:00 PM - 7:00 PM</option>
+                        <option>7:00 PM - 9:00 PM</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="bookingDetails">Service Details</label>
+                <textarea id="bookingDetails" rows="4" placeholder="Describe the problem or service you need..."></textarea>
+            </div>
+
+            <button type="submit" class="primary-btn full-width">Continue on WhatsApp</button>
+
+        </form>
+    </div>
+</div>
+
+
+<!-- ================= PROVIDER MODAL ================= -->
+
+<div class="modal" id="providerModal">
+    <div class="modal-content">
+
+        <button class="modal-close" onclick="closeProviderModal()" aria-label="Close">×</button>
+
+        <div class="modal-header">
+            <span class="modal-icon" data-icon="user-plus" aria-hidden="true"></span>
+            <h2>Join as a Professional</h2>
+            <p>Register your service profile with Fixora.</p>
+        </div>
+
+        <form id="providerForm">
+
+            <div class="form-row">
+                <input type="text" id="providerName" placeholder="Full Name" required aria-label="Full name">
+                <input type="tel" id="providerPhone" placeholder="Phone Number" required aria-label="Phone number">
+            </div>
+
+            <div class="form-row">
+                <input type="email" id="providerEmail" placeholder="Email" required aria-label="Email">
+                <input type="text" id="providerProfession" placeholder="Profession" required aria-label="Profession">
+            </div>
+
+            <div class="form-row">
+                <input type="number" id="providerExperience" placeholder="Years of Experience" min="0" required aria-label="Years of experience">
+                <input type="text" id="providerCity" placeholder="City" required aria-label="City">
+            </div>
+
+            <select id="providerCategory" required aria-label="Service category">
+                <option value="">Select Service Category</option>
+            </select>
+
+            <textarea id="providerDescription" rows="5" placeholder="Tell us about your services..." required aria-label="Describe your services"></textarea>
+
+            <button type="submit" class="primary-btn full-width">Register as Professional</button>
+
+        </form>
+    </div>
+</div>
+
+
+<!-- ================= TOAST ================= -->
+
+<div id="toast" class="toast" role="status" aria-live="polite">
+    <span id="toastMessage"></span>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
